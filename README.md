@@ -50,6 +50,11 @@ Real Project Test Case:
 1. 1st Uploaded email for AI Buddy help to analyze the email
 ![Test Email](https://github.com/user-attachments/assets/5107e9d0-e9c2-434b-b3ef-0da2eb4e8ddd)
 
+🧠 AI Reasoning Example
+
+A typical response from AI Buddy after analyzing an email:
+"After analyzing the email, I classify it as phishing. It contains suspicious links, mismatched sender domains, and an urgent request for credential confirmation."
+
 2. Then Started to chat with the AI buddy for further assistance
 ![AI Buddy chatting](https://github.com/user-attachments/assets/f2c35fe1-f22e-4afc-97bb-6aacd20f3474)
 
@@ -92,24 +97,17 @@ curl -X POST http://localhost:9002/analyze-eml \
 
 # Enable services on boot
 sudo systemctl enable ai-buddy-backend
+&
 sudo systemctl enable ai-buddy-frontend
-
-# Check service status
-sudo systemctl status ai-buddy-backend
-sudo systemctl status ai-buddy-frontend
-
-# Restart services
-sudo systemctl restart ai-buddy-backend
-sudo systemctl restart ai-buddy-frontend
-
+---------------------------------------
+sudo systemctl start ai-buddy-backend
+&
+sudo systemctl start ai-buddy-frontend
+---------------------------------------
 # If port conflict
 sudo lsof -i :9002
 sudo kill <PID>
-
-🧠 AI Reasoning Example
-
-A typical response from AI Buddy after analyzing an email:
-"After analyzing the email, I classify it as phishing. It contains suspicious links, mismatched sender domains, and an urgent request for credential confirmation."
+---------------------------------------
 
 🌍 Access URLs
 
