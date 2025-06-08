@@ -22,29 +22,8 @@ Parsing >> .eml email files
 Deployment >> Kali Linux
 
 📁 Project Structure
+![Project Structure](https://github.com/user-attachments/assets/0c1a5c58-e1fe-4179-bab1-a071acb3dedd)
 
-/root/ai-buddy-agent/
-├── backend/
-│   ├── main.py              # FastAPI backend API
-│   ├── categorize.py        # Runs Ollama LLaMA3 to classify emails
-│   ├── eml_parser.py        # Parses uploaded .eml files
-│   ├── indicators.py        # Extracts URLs, domains, IPs from content
-│   ├── .venv/               # Python virtual environment
-│   ├── run_backend.sh       # Script to run backend manually
-│   └── requirements.txt     # Backend Python dependencies
-│
-├── frontend/
-│   ├── public/              # Static files
-│   └── src/
-│       ├── App.js           # Main UI component
-│       ├── App.css          # Global styling (dark/light)
-│       ├── ChatBox.js       # Chat interface with LLaMA
-│       ├── FileUploader.js  # Email upload + results
-│       └── index.js         # React entry point
-│
-└── systemd/
-    ├── ai-buddy-backend.service   # FastAPI backend systemd service
-    └── ai-buddy-frontend.service  # React frontend systemd service
 
 Real Project Test Case:
 1. 1st Uploaded email for AI Buddy help to analyze the email
