@@ -23,7 +23,7 @@ AI Buddy is an intelligent, offline-first, phishing email analysis assistant des
 🛠️ DevOps & Deployment
 ![image](https://github.com/user-attachments/assets/cc511624-8986-4e36-aec1-9d6f33f46d86)
 
-
+-------------------------------------------------------------------------------------
 📁 Project Structure
 ![Project Structure](https://github.com/user-attachments/assets/0c1a5c58-e1fe-4179-bab1-a071acb3dedd)
 
