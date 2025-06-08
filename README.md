@@ -14,12 +14,15 @@ AI Buddy is an intelligent, offline-first, phishing email analysis assistant des
 📤 EML Support: Upload .eml files for in-depth parsing and evaluation.
 🌐 Modern Web UI: Responsive interface built with React and Tailwind CSS.
 
-⚙️ Tech Stack
-Backend >> Python 3.13, FastAPI
-LLM Model >> LLaMA 3 via Ollama
-Frontend >> React, Tailwind CSS
-Parsing >> .eml email files
-Deployment >> Kali Linux
+⚙️ Backend Stack
+![image](https://github.com/user-attachments/assets/03dd0fe4-cceb-47bc-96cc-137dd6204b8e)
+
+💻 Frontend Stack
+![image](https://github.com/user-attachments/assets/2ced3670-869d-47b4-94c4-0ecc1e1004e3)
+
+🛠️ DevOps & Deployment
+![image](https://github.com/user-attachments/assets/cc511624-8986-4e36-aec1-9d6f33f46d86)
+
 
 📁 Project Structure
 ![Project Structure](https://github.com/user-attachments/assets/0c1a5c58-e1fe-4179-bab1-a071acb3dedd)
