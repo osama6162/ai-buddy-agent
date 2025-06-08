@@ -13,7 +13,7 @@ AI Buddy is an intelligent, offline-first, phishing email analysis assistant des
 💬 Conversational Agent: Built-in chat powered by the same local AI model.
 📤 EML Support: Upload .eml files for in-depth parsing and evaluation.
 🌐 Modern Web UI: Responsive interface built with React and Tailwind CSS.
-
+-------------------------------------------------------------------------------------
 ⚙️ Backend Stack
 ![image](https://github.com/user-attachments/assets/03dd0fe4-cceb-47bc-96cc-137dd6204b8e)
 
@@ -21,6 +21,7 @@ AI Buddy is an intelligent, offline-first, phishing email analysis assistant des
 ![image](https://github.com/user-attachments/assets/2ced3670-869d-47b4-94c4-0ecc1e1004e3)
 
 🛠️ DevOps & Deployment
+
 ![image](https://github.com/user-attachments/assets/cc511624-8986-4e36-aec1-9d6f33f46d86)
 
 -------------------------------------------------------------------------------------
@@ -40,7 +41,7 @@ A typical response from AI Buddy after analyzing an email:
 2. Then Started to chat with the AI buddy for further assistance
 ![AI Buddy chatting](https://github.com/user-attachments/assets/f2c35fe1-f22e-4afc-97bb-6aacd20f3474)
 
-
+-------------------------------------------------------------------------------------
 🚀 Installation & Startup
 
 1️⃣ Backend Setup (FastAPI + Ollama)
