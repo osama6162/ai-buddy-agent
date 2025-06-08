@@ -9,9 +9,13 @@ AI Buddy is an intelligent, offline-first, phishing email analysis assistant des
 ✅ Private & Offline: No cloud APIs, runs fully on your system.
 
 🤖 Local LLaMA Reasoning: Use llama3 model through Ollama to classify threats.
+
 📎 IOC Extraction: Automatically extracts URLs, domains, and IPs from email content.
+
 💬 Conversational Agent: Built-in chat powered by the same local AI model.
+
 📤 EML Support: Upload .eml files for in-depth parsing and evaluation.
+
 🌐 Modern Web UI: Responsive interface built with React and Tailwind CSS.
 
 -------------------------------------------------------------------------------------
